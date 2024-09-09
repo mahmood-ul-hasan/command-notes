@@ -87,5 +87,5 @@ sudo docker cp /media/aisl2/aisl_data/docker/glim_docker/os1_128_01_downsampled/
 Inside the Docker container, navigate to the directory where the bag file was copied and play it to start processing the
 ```
 cd /root/ros2_ws/src/
-ros2 bag play os1_128_01
+ros2 bag play os1_128_01_downsampled.db3
 ```
