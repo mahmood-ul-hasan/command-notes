@@ -15,7 +15,10 @@ Use this command to check if the Docker image has been downloaded correctly and 
 ```
 sudo docker images
 ```
-
+Make sure you have X11 forwarding enabled on your host machine. You can do this by running:
+```
+xhost +local:docker
+```
 ### 4 Prepare the config Folder:
 Ensure the config folder is in your current working directory. This folder contains configuration files needed by the Docker container. You can either copy it from the downloaded repository or navigate to its existing location.
 ##### Option 1
